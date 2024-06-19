@@ -1,4 +1,5 @@
 # Linux-Server-Information-Retrieval
+```bash
 $ sh getinfo.sh
 ## Example
 cpu num: 8
@@ -9,3 +10,4 @@ system bit: 64
 process: 40
 software num: 1389
 ip: 1.32.X.X
+```
