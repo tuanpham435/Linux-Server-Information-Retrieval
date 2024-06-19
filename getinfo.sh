@@ -5,7 +5,7 @@ echo "cpu num: $cpu_num"
 
 total_memory=$(free -g | awk '/^Mem:/ {print $2}')
 free_memory=$(free -m | awk '/^Mem:/ {print $4}')
-echo "memory total: $total_memory"
+echo "memory total: $total_memory G"
 echo "memory free: $free_memory M"
 
 disk_size=$(df -h / | awk '/\// {print $2}')
